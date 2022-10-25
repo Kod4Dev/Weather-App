@@ -43,7 +43,7 @@ export function Search() {
             </div>
             {
                 (cidade != "")?
-                <div className="text-center w-[50%] m-auto rounded shadow-lg bg-cyan-300">
+                <div className="text-center w-[50%] m-auto rounded shadow-lg bg-cyan-100">
                     <h2 className="text-md text-gray-500 mb-5">Sua busca retornou...</h2>
                     <div dangerouslySetInnerHTML={{__html: cidade}} />
                 </div>:
