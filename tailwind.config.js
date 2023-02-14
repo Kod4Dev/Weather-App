@@ -4,35 +4,24 @@ module.exports = {
     './src/**/*.js',
   ],
   theme: {
-    fontSize: {
-      xs: 14,
-      sm: 16,
-      md: 18,
-      lg: 20,
-      xl: 24,
-      '2xl': 32,
-    },
-    colors: {
-      'transparent': 'transparent',
-      'black': '#000',
-      'white': '#FFF',
-      gray: {
-        900: '#121214',
-        800: '#202024',
-        500: '#2f2f33',
-        400: '#7C7C8A',
-        200: '#C4C4CC',
-        100: '#E1E1E6',
-      },
-      cyan: {
-        500:'#81d8f7',
-        300: '#9BE1FB',
-        100: '#c9f0ff',
-      }
-    },
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif'
+      },
+      colors: {
+        "bg-color": "#121214",
+        "black": "#09090A",
+        "primary": "#8257E5",
+        "hover": "#9466FF",
+        "borderColor": "#6833E4",
+        "green": "#04D361",
+        "red": "#CE4A4A",
+        "textColor": "#A8A8B3",
+        "white": "#FFFFFF",
+        "borders": "#323238",
+        "scrollbar": "#4D4D57",
+        "attention": "#FD951F",
+        "warning": "#EB8A1D"
       }
     },
   },
