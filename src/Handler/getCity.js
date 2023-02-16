@@ -1,8 +1,6 @@
-require("dotenv").config();
-
 export function getCity(city) {
     return new Promise(async (resolve, reject) => {
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}&units=metric&lang=pt_br`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d0cb5901ba0e4e8fa48ee407808f3ac2&units=metric&lang=pt_br`;
 
         fetch(url)
         .then(response => response.json())
